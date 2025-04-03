@@ -2,7 +2,7 @@ import gradio as gr
 import pandas as pd
 
 # Load movie dataset
-movies = pd.read_csv("movies.csv") 
+movies = pd.read_csv("movie.csv") 
 
 # Function to recommend movies by genre
 def recommend_by_genre(genre, top_n=5):
